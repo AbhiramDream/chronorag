@@ -51,49 +51,6 @@ Open your browser at: **http://localhost:8501**
 
 > ⏳ **First load takes ~25 seconds** — it's processing 190,000+ messages, detecting topics, building checkpoints, and indexing everything. After that it's instant (cached).
 
----
-
-## ☁️ How to Deploy to Cloud (Free — Streamlit Community Cloud)
-
-Anyone with the link can access your hosted app. Here's how:
-
-### Step 1 — Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/chronaRAG.git
-git push -u origin main
-```
-
-### Step 2 — Go to Streamlit Cloud
-Visit **https://share.streamlit.io** and sign in with GitHub.
-
-### Step 3 — Create a new app
-- Click **"New app"**
-- Select your GitHub repo: `YOUR_USERNAME/chronaRAG`
-- Branch: `main`
-- Main file: `app.py`
-- Click **"Deploy!"**
-
-### Step 4 — Add your HuggingFace token as a Secret
-In Streamlit Cloud dashboard:
-- Go to your app → **Settings** → **Secrets**
-- Add this:
-```toml
-HF_TOKEN = "your_huggingface_token_here"
-```
-- Save and **Reboot app**
-
-### Step 5 — Share your link! 🎉
-Your app will be live at:
-```
-https://YOUR_USERNAME-chronarag-app-XXXXX.streamlit.app
-```
-
----
 
 ## 🏗️ Project Architecture
 
