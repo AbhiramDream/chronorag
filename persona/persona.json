@@ -1,0 +1,31 @@
+{
+  "habits": [
+    "Discusses food frequently",
+    "Fitness-conscious",
+    "Gamer",
+    "Late/irregular sleeper",
+    "Reader",
+    "Regular hot-drink consumer"
+  ],
+  "personality_traits": [
+    "Anxious",
+    "Caring",
+    "Confident",
+    "Emotional",
+    "Humorous",
+    "Indecisive"
+  ],
+  "personal_facts": [
+    "Has a pet",
+    "Has family members mentioned",
+    "In a relationship",
+    "Student",
+    "Working/job-seeking"
+  ],
+  "communication_style": {
+    "short_messages": false,
+    "emoji_usage": "low",
+    "tone": "conversational",
+    "asks_questions_frequently": true
+  }
+}
